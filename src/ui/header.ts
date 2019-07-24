@@ -1,7 +1,6 @@
 import styled from "styled-components";
 import {ITheme} from "../App";
 
-
 const Header = styled.div`
   background-color: ${(props: ITheme) => props.theme.colors.purple};
   display: flex;
